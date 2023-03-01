@@ -18,12 +18,12 @@ func main() {
 
 	for _, IgnoredUsers := range config.IgnoredUsers {
 		println("add ", IgnoredUsers.Name, "to IgnoredList")
-		//joinedUsers = append(joinedUsers, IgnoredUsers.Name)
+		joinedUsers = append(joinedUsers, IgnoredUsers.Name)
 	}
 
 	client.OnPrivateMessage(func(message twitch.PrivateMessage) {
 		if stringInSlice(message.User.Name, joinedUsers) == false {
-			botMessage := getARandomLine(config.SalutionFile) + " @" + message.User.Name + " " + getARandomLine(config.ComplimentFile) + " " + getARandomLine(config.GreetingsFile)
+			botMessage := getARandomLine(config.SalutationFile) + " @" + message.User.Name + " " + getARandomLine(config.ComplimentFile) + " " + getARandomLine(config.GreetingsFile)
 
 			log.Println("say: " + botMessage)
 			client.Say(config.Channel, botMessage)

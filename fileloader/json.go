@@ -17,7 +17,7 @@ type Config struct {
 		Name string `json:"name"`
 	} `json:"ignored-users"`
 	GreetingsFile  string `json:"greeting-file"`
-	SalutionFile   string `json:"Salution-file"`
+	SalutationFile string `json:"Salutation-file"`
 	ComplimentFile string `json:"compliment-file"`
 }
 
