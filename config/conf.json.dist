@@ -1,0 +1,15 @@
+{
+  "bot": {
+    "name": "botame",
+    "token": "oauth:token"
+  },
+  "channel": "channel",
+  "ignored-users": [
+    {
+      "name": "name"
+    }
+  ],
+  "greeting-file": "greets.txt",
+  "salution-file": "salution.txt",
+  "compliment-file": "compliments.txt"
+}
