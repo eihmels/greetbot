@@ -11,5 +11,6 @@
   ],
   "greeting-file": "greets.txt",
   "salution-file": "salution.txt",
-  "compliment-file": "compliments.txt"
+  "compliment-file": "compliments.txt",
+  "asking-period": 800
 }

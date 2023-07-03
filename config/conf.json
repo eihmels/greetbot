@@ -1,0 +1,14 @@
+{
+  "bot": {
+    "name": "enxxietybot",
+    "token": "oauth:odi4rwc8id3hz5oy1jcx3lixqct9yk"
+  },
+  "channel": "enxxiety",
+  "ignored-users": [
+
+  ],
+  "greeting-file": "greets.txt",
+  "salutation-file": "salutation.txt",
+  "compliment-file": "compliments.txt",
+  "asking-period": 800
+}
